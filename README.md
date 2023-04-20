@@ -60,7 +60,8 @@ git add [ステージングするファイル名]
 [ステージングするファイル名]の部分に[.]を入力するとすべてのファイルをステージングにする
 
 <h2 id="commit">git commit</h2>
-ステージングファイルをローカルリポジトリーにマージする。
+
+メッセージ付きコミット。
 
 ```
 git commit -m "[コミットメッセージ]"
@@ -73,8 +74,6 @@ git commit -m "[コミットメッセージ]"
 git reset
 ```
 
-ローカルリポジトリへの変更を取り消すために使う。
-
 <h2 id="revert">git revert</h2>
 特定のコミットを取消する。
 
@@ -86,7 +85,7 @@ git revert [取り消すコミットID]
 コミット ID は[git log]等で確認できる。
 
 <h2 id="log">git log</h2>
-コミット履歴が表示される。
+コミット履歴を表示する。
 
 ```
 git log
@@ -139,7 +138,7 @@ git stash [実行コマンド]
 
 <h2 id="branch">git branch</h2>
 
-[ブランチについて](/BRANCH.md#branch)
+[ブランチについて](/EXPLANATION.md#branch)
 
 ブランチを作成する。
 
