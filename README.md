@@ -139,7 +139,7 @@ git stash [実行コマンド]
 
 <h2 id="branch">git branch</h2>
 
-[ブランチについて](/BRANCH.md)
+[ブランチについて](/BRANCH.md#branch)
 
 ブランチを作成する。
 
