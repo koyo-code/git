@@ -178,7 +178,7 @@ git branch -d <branch>
 git checkout [切り替えるブランチ名]
 ```
 
-新しいブランチを切ってそのブランチに移動する
+新しいブランチを作成して切り替える。
 
 ```
 git checkout -b [新しいブランチ名]
@@ -190,6 +190,12 @@ git checkout -b [新しいブランチ名]
 
 ```
 git switch [ブランチ名]
+```
+
+ブランチを新規作成して切り替える。
+
+```
+git switch -c [ブランチ名]
 ```
 
 <h2 id="merge">git merge</h2>
