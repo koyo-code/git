@@ -6,11 +6,22 @@
 
 ## 目次
 
-[init](#init) [pull](#pull) [push](#push)<br>
-[add](#add) [commit](#commit) [reset](#reset)<br>
-[revert](#revert) [log](#log) [tag](#tag)<br>
-[status](#status) [diff](#diff) [stash](#stash)<br>
-[branch](#branch) [checkout](#checkout) [merge](#merge)
+- [init](#init)
+- [pull](#pull)
+- [push](#push)
+- [add](#add)
+- [commit](#commit)
+- [reset](#reset)
+- [revert](#revert)
+- [log](#log)
+- [tag](#tag)
+- [status](#status)
+- [diff](#diff)
+- [stash](#stash)
+- [branch](#branch)
+- [checkout](#checkout)
+- [switch](#switch)
+- [merge](#merge)
 
 <h2 id="init">git init</h2>
 
@@ -148,6 +159,12 @@ git branch
 git branch -r
 ```
 
+ローカルリモート含めてすべてのブランチ一覧を表示
+
+```
+git branch -a
+```
+
 ローカルブランチの削除。
 
 ```
@@ -165,6 +182,14 @@ git checkout [切り替えるブランチ名]
 
 ```
 git checkout -b [新しいブランチ名]
+```
+
+<h2 id="switch">git switch</h2>
+
+作業ブランチを切り替える。
+
+```
+git switch [ブランチ名]
 ```
 
 <h2 id="merge">git merge</h2>
