@@ -12,11 +12,12 @@ desktop にフォルダ作成<br>
 
 2. ローカルで[sub]ブランチを作り、そちらの index.html を適当に編集し、ローカルのメインブランチに編集分をマージする。
 
-3. リモートの index.html を直接編集して、差分をローカルの main ブランチに fetch してから merge する
+3. リモートの index.html を直接編集して、差分をローカルの main ブランチに fetch してから merge する。
 
 4. やっぱり merge を取り消したいので、revert でコミット ID を入力して打ち消す。
 
 5. もう一度リモートの index.html を直接編集して pull する。(pull は fetch->merge のショートカット)
+
 6. リモートの main ブランチの index.html の title 部分のテキストを編集。その後、新しくリモートブランチ[sub]を制作し index.html の title 部分を main とは違うテキストに編集して pull リクエスト。コンフリクトが発生すると思うので github 上で sub ブランチの方を優先させてコンフリクトを解消する。そしてブランチの削除。
 
 7. また同じくリモートの main ブランチの index.html の title 部分のテキストを編集。その後、ローカルの main ブランチの title のテキストを編集そしてコミット。その後 pull。
