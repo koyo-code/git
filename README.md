@@ -1,12 +1,9 @@
 ﻿# Git Document
 
-[git 練習用](/TEST.md)<br>
-
-[分かったこと適当に](/STUDY.md)<br>
-
 ## 目次
 
 - コマンド
+
   - [init](#init)
   - [pull](#pull)
   - [push](#push)
@@ -23,6 +20,11 @@
   - [checkout](#checkout)
   - [switch](#switch)
   - [merge](#merge)
+
+- その他
+
+  - [git 練習用](/TEST.md)
+  - [分かったこと適当に](/STUDY.md)
 
 <h2 id="init">git init</h2>
 
