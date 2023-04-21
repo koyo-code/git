@@ -39,7 +39,8 @@
 
 ![プルリクエスト](/images/pr.png)
 
-イシューとプルリクエストを関連付けることもできる。
+イシューとプルリクエストを関連付けることもできる。<br>
+右側の development から issue を選択。
 
 ![イシューPR](/images/issuepr.png)
 
