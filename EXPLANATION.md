@@ -40,7 +40,8 @@
 ![プルリクエスト](/images/pr.png)
 
 イシューとプルリクエストを関連付けることもできる。<br>
-右側の development から issue を選択。
+右側の development から issue を選択。<br>
+プルリクエストがマージされると issue も同時に close する。
 
 ![イシューPR](/images/issuepr.png)
 
