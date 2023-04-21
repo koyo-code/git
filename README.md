@@ -6,22 +6,23 @@
 
 ## 目次
 
-- [init](#init)
-- [pull](#pull)
-- [push](#push)
-- [add](#add)
-- [commit](#commit)
-- [reset](#reset)
-- [revert](#revert)
-- [log](#log)
-- [tag](#tag)
-- [status](#status)
-- [diff](#diff)
-- [stash](#stash)
-- [branch](#branch)
-- [checkout](#checkout)
-- [switch](#switch)
-- [merge](#merge)
+- コマンド
+  - [init](#init)
+  - [pull](#pull)
+  - [push](#push)
+  - [add](#add)
+  - [commit](#commit)
+  - [reset](#reset)
+  - [revert](#revert)
+  - [log](#log)
+  - [tag](#tag)
+  - [status](#status)
+  - [diff](#diff)
+  - [stash](#stash)
+  - [branch](#branch)
+  - [checkout](#checkout)
+  - [switch](#switch)
+  - [merge](#merge)
 
 <h2 id="init">git init</h2>
 
