@@ -2,6 +2,7 @@
 
 - [ブランチ](#branch)
 - [プルリクエスト(PR)](#pr)
+  - [プルリクエストテンプレート作成](#temp)
 - [コンフリクト](#conflict)
 - [ディフ](#diff)
 - [コミット](#commit)
@@ -40,7 +41,8 @@
 
 ![プルリクエスト](/images/pr.png)
 
-pull リクエストの定型文を制作することができる。<br>
+<h3 id="temp">pullリクエストの定型文作成</h3>
+
 root 直下か docs フォルダの中に pull_request_template.md を作成し、<br>
 マークダウン形式で作成する。
 
