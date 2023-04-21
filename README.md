@@ -37,7 +37,8 @@ git init
 
 <h2 id="pull">git pull</h2>
 
-[プルとは](/EXPLANATION.md#pull)
+[プルとは](/EXPLANATION.md#pull)<br>
+
 リモートリポジトリの変更内容をローカルリポジトリに統合する。
 
 ```
@@ -125,7 +126,8 @@ git status
 
 <h2 id="diff">git diff</h2>
 
-[ディフとは](/EXPLANATION.md#diff)
+[ディフとは](/EXPLANATION.md#diff)<br>
+
 作業ファイルをリモートリポジトリのものと比較し差分を表示する。
 
 ```
@@ -145,7 +147,7 @@ git stash [実行コマンド]
 
 <h2 id="branch">git branch</h2>
 
-[ブランチとは](/EXPLANATION.md#branch)
+[ブランチとは](/EXPLANATION.md#branch)<br>
 
 ブランチを作成する。
 
@@ -206,7 +208,7 @@ git switch -c [ブランチ名]
 
 <h2 id="merge">git merge</h2>
 
-[マージとは](/EXPLANATION.md#merge)
+[マージとは](/EXPLANATION.md#merge)<br>
 
 現在処理しているブランチに、別のブランチから変更点を取り込む
 
