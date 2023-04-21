@@ -27,6 +27,11 @@
 追加・変更したファイルをGitに登録すること。
 
 <h2 id="assignee">アサイン（assignee）</h2>
+
+issue の画面の右側
+
+![アサイン](/images/assignee.png)
+
 issue に割り当てられたユーザー。
 
 <h2 id="diff">ディフ（diff）</h2>
