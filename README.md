@@ -1,5 +1,7 @@
 ﻿# Git Document
 
+[![Likes](https://badgen.org/img/zenn/kou_pg_0131/likes?style=plastic)](https://zenn.dev/kou_pg_0131)
+
 ![github](/images/github.webp)
 
 [![My Skills](https://skillicons.dev/icons?i=git,github)](https://skillicons.dev)
