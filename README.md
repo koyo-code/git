@@ -177,6 +177,12 @@ git branch -r
 git branch -a
 ```
 
+ローカルのブランチ名変更
+
+```
+git branch -m <branch-name> <new-branch-name>
+```
+
 ローカルブランチの削除。
 
 ```
@@ -217,5 +223,13 @@ git switch -c [ブランチ名]
 現在処理しているブランチに、別のブランチから変更点を取り込む
 
 ```
- git merge [変更点の取り込み元ブランチ名]
+git merge [変更点の取り込み元ブランチ名]
+```
+
+<h2 id="remote">git remote</h2>
+
+ローカルに登録済みのリモートリポジトリの情報を削除する。
+
+```
+git remote rm <remote-name>
 ```
