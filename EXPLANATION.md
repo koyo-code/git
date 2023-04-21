@@ -26,7 +26,7 @@
 <h2 id="commit">コミット（commit）</h2>
 追加・変更したファイルをGitに登録すること。
 
-<h2 id="assignee">アサイン（assignee）</h2>
+<h2 id="assign">アサイン（assign）</h2>
 
 issue の画面の右側。<br>
 issue にユーザーを割り当てることができる。
