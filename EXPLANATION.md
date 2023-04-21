@@ -39,6 +39,10 @@
 
 ![プルリクエスト](/images/pr.png)
 
+イシューとプルリクエストを関連付けることもできる。
+
+![イシューPR](/images/issuepr.png)
+
 <h2 id="commit">コミット（commit）</h2>
 追加・変更したファイルをGitに登録すること。
 
