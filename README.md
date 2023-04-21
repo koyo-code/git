@@ -23,6 +23,7 @@
 
 - その他
 
+  - [用語など説明](/EXPLANATION.md)
   - [git 練習用](/TEST.md)
   - [分かったこと適当に](/STUDY.md)
 
