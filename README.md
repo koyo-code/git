@@ -6,6 +6,11 @@
 
 ## 目次
 
+- チェック
+
+  - [説明](/EXPLANATION.md)
+  - [git 勉強に](/TEST.md)
+
 - コマンド
 
   - [init](#init)
@@ -24,12 +29,6 @@
   - [checkout](#checkout)
   - [switch](#switch)
   - [merge](#merge)
-
-- その他
-
-  - [用語など説明](/EXPLANATION.md)
-  - [git 練習用](/TEST.md)
-  - [分かったこと適当に](/STUDY.md)
 
 <h2 id="init">git init</h2>
 
