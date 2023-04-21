@@ -12,10 +12,10 @@
 
 <h2 id="branch">ブランチ（branch）</h2>
 
-![ブランチ](/images/branch.png)
-
 分岐して開発していくための手法。
 別々の機能を同時に開発できる。
+
+![ブランチ](/images/branch.png)
 
 <h2 id="conflict">コンフリクト（conflict）</h2>
 
