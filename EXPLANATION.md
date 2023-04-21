@@ -44,7 +44,8 @@
 <h3 id="temp">pullリクエストの定型文作成</h3>
 
 root 直下か docs フォルダの中に pull_request_template.md を作成し、<br>
-マークダウン形式で作成する。
+マークダウン形式で作成する。<br>
+プルリクエストを開くとこんな感じで表示される。
 
 ![テンプレート](/images/temp.png)
 
