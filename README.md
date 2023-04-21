@@ -89,10 +89,31 @@ git commit -m "[コミットメッセージ]"
 ```
 
 <h2 id="reset">git reset</h2>
-ステージングにある全ファイルをワークツリーに戻す
+
+直前のコミットを取り消す。
+
+```
+git reset --soft HEAD^
+```
+
+ステージングを取り消したい
 
 ```
 git reset HEAD
+git reset --mixed HEAD
+```
+
+直前の push を取り消す。
+
+```
+git reset --hard HEAD^
+```
+
+特定のコミットを取り消す
+
+```
+git reset --hard [コミットID]
+
 ```
 
 <h2 id="revert">git revert</h2>
