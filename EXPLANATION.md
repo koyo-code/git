@@ -68,3 +68,9 @@ issue にユーザーを割り当てることができる。
 イシューは下画像のタブから作成できる。
 
 ![イシュー](/images/issue.png)
+
+イシューの id (#から始まる数字)をコミットメッセージに添えることで issue とコミットを関連付けることができる。
+
+![イシューID](/images/issuenumber.png)
+
+![イシュー解決](/images/issueresolve.png)
