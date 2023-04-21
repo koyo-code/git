@@ -12,7 +12,7 @@
   - [git 勉強に](/TEST.md)
 
 - コマンド
-
+  - [version](#version)
   - [init](#init)
   - [pull](#pull)
   - [push](#push)
@@ -29,6 +29,16 @@
   - [checkout](#checkout)
   - [switch](#switch)
   - [merge](#merge)
+  - [remote](#remote)
+  - [restore](#restore)
+
+<h2 id="version">git version</h2>
+
+git のバージョンを表示。
+
+```
+git version
+```
 
 <h2 id="init">git init</h2>
 
@@ -77,14 +87,21 @@ git commit -m "[コミットメッセージ]"
 ```
 
 <h2 id="reset">git reset</h2>
-直前のコミットを取消する。
+ステージングにある全ファイルをワークツリーに戻す
 
 ```
-git reset
+git reset HEAD
 ```
 
 <h2 id="revert">git revert</h2>
-特定のコミットを取消する。
+
+直前のコミットを元に戻すコミットを作成する
+
+```
+git revert HEAD
+```
+
+特定のコミットを元に戻すコミットを作成する
 
 ```
 git revert [取り消すコミットID]
@@ -258,4 +275,18 @@ git merge [変更点の取り込み元ブランチ名]
 
 ```
 git remote rm <remote-name>
+```
+
+<h2 id="restore">git restore</h2>
+
+ファイルの変更を取り消す。
+
+```
+git restore <filename>
+```
+
+ファイルの変更をすべて取り消す
+
+```
+git restore .
 ```
