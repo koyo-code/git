@@ -3,6 +3,7 @@
 - [ブランチ](#branch)
 - [プルリクエスト(PR)](#pr)
   - [プルリクエストテンプレート作成](#temp)
+  - [issue と pullrequest](#issuepr)
 - [コンフリクト](#conflict)
 - [ディフ](#diff)
 - [コミット](#commit)
@@ -49,7 +50,8 @@ root 直下か docs フォルダの中に pull_request_template.md を作成し�
 
 ![テンプレート](/images/temp.png)
 
-イシューとプルリクエストを関連付けることもできる。<br>
+<h3 id="issuepr">イシューとプルリクエストを関連付ける</h3>
+
 右側の development から issue を選択。<br>
 プルリクエストがマージされると issue も同時に close する。
 
