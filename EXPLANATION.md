@@ -12,6 +12,7 @@
 - [マージ](#merge)
 - [プル](#pull)
 - [イシュー](#issue)
+- [リセット](#reset)
 
 <h2 id="branch">ブランチ（branch）</h2>
 
@@ -102,3 +103,5 @@ pullはfetchとmergeのショートカット。
 issue に関連したコミットであるということを明示することができて便利。
 
 ![イシューマーク](/images/issuemark.png)
+
+<h2 id="reset">リセット（reset）</h2>
