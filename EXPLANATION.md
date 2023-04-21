@@ -105,3 +105,9 @@ issue に関連したコミットであるということを明示すること�
 ![イシューマーク](/images/issuemark.png)
 
 <h2 id="reset">リセット（reset）</h2>
+
+```
+--hard：「HEADの位置・インデックス・ワーキングツリー」全て
+--mixed（or オプション無し）：「HEADの位置・インデックス」
+--soft：「HEADの位置」のみ
+```
