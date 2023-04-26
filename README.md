@@ -152,7 +152,11 @@ git log
 git tag [tag名]
 ```
 
-変更履歴の確認時に目印となる。
+タグを削除する。
+
+```
+git tag -d [タグ名]
+```
 
 <h2 id="status">git status</h2>
 作業ツリー内の差分ファイルを表示
