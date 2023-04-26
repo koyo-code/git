@@ -290,7 +290,9 @@ git switch -c [ブランチ名]
 git merge [変更点の取り込み元ブランチ名]
 ```
 
-<h2 id="remote">git remote</h2>
+<h2 id="remote">git remote</h2>]
+
+[リモートとは](/EXPLANATION.md#remote)<br>
 
 ローカルに登録済みのリモートリポジトリの情報を削除する。
 
