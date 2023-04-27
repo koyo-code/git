@@ -1,4 +1,4 @@
-# Git Study.
+# Git Study
 
 ## 環境構築
 
